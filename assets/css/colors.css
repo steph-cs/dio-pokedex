@@ -1,0 +1,228 @@
+:root {
+  --blue: #2c71b5;
+  --white: #ffffff;
+  --shadow: rgb(63, 63, 63);
+
+
+  /* Types */
+  --bug-color-h: 119;
+  --bug-color-s: 55%;
+  --bug-color-l: 46%;
+
+  --dark-color-h: 0;
+  --dark-color-s: 2%;
+  --dark-color-l: 37%;
+
+  --dragon-color-h: 12;
+  --dragon-color-s: 77%;
+  --dragon-color-l: 61%;
+
+  --electric-color-h: 51;
+  --electric-color-s: 84%;
+  --electric-color-l: 57%;
+
+  --fairy-color-h: 329;
+  --fairy-color-s: 76%;
+  --fairy-color-l: 71%;
+
+  --fighting-color-h: 31;
+  --fighting-color-s: 68%;
+  --fighting-color-l: 50%;
+
+  --fire-color-h: 23;
+  --fire-color-s: 110%;
+  --fire-color-l: 65%;
+
+  --flying-color-h: 207;
+  --flying-color-s: 35%;
+  --flying-color-l: 55%;
+
+  --ghost-color-h: 263;
+  --ghost-color-s: 40%;
+  --ghost-color-l: 52%;
+
+  --grass-color-h: 165;
+  --grass-color-s: 58%;
+  --grass-color-l: 55%;
+
+  --ground-color-h: 47;
+  --ground-color-s: 78%;
+  --ground-color-l: 43%;
+
+  --ice-color-h: 181;
+  --ice-color-s: 48%;
+  --ice-color-l: 50%;
+
+  --normal-color-h: 0;
+  --normal-color-s: 0%;
+  --normal-color-l: 61%;
+
+  --poison-color-h: 285;
+  --poison-color-s: 35%;
+  --poison-color-l: 60%;
+
+  --psychic-color-h: 305;
+  --psychic-color-s: 64%;
+  --psychic-color-l: 52%;
+
+  --rock-color-h: 30;
+  --rock-color-s: 46%;
+  --rock-color-l: 41%;
+
+  --steel-color-h: 204;
+  --steel-color-s: 10%;
+  --steel-color-l: 42%;
+
+  --water-color-h: 209;
+  --water-color-s: 62%;
+  --water-color-l: 44%;
+
+  /*  Calc Based on Darkness  */
+  --darknessTransform: -10%;
+
+  /* Final Colors */
+
+  /* BUG */
+  --bug-color: hsl(var(--bug-color-h),
+      var(--bug-color-s),
+      var(--bug-color-l));
+  --bug-dark-color: hsl(var(--bug-color-h),
+      var(--bug-color-s),
+      calc(var(--bug-color-l) + var(--darknessTransform)));
+
+  /* DARK */
+  --dark-color: hsl(var(--dark-color-h),
+      var(--dark-color-s),
+      var(--dark-color-l));
+  --dark-dark-color: hsl(var(--dark-color-h),
+      var(--dark-color-s),
+      calc(var(--dark-color-l) + var(--darknessTransform)));
+
+  /* DRAGON */
+  --dragon-color: hsl(var(--dragon-color-h),
+      var(--dragon-color-s),
+      var(--dragon-color-l));
+  --dragon-dark-color: hsl(var(--dragon-color-h),
+      var(--dragon-color-s),
+      calc(var(--dragon-color-l) + var(--darknessTransform)));
+
+  /* Electric */
+  --electric-color: hsl(var(--electric-color-h),
+      var(--electric-color-s),
+      var(--electric-color-l));
+  --electric-dark-color: hsl(var(--electric-color-h),
+      var(--electric-color-s),
+      calc(var(--electric-color-l) + var(--darknessTransform)));
+
+  /* FAIRY */
+  --fairy-color: hsl(var(--fairy-color-h),
+      var(--fairy-color-s),
+      var(--fairy-color-l));
+  --fairy-dark-color: hsl(var(--fairy-color-h),
+      var(--fairy-color-s),
+      calc(var(--fairy-color-l) + var(--darknessTransform)));
+
+  /* FIGHTING */
+  --fighting-color: hsl(var(--fighting-color-h),
+      var(--fighting-color-s),
+      var(--fighting-color-l));
+  --fighting-dark-color: hsl(var(--fighting-color-h),
+      var(--fighting-color-s),
+      calc(var(--fighting-color-l) + var(--darknessTransform)));
+
+  /* FIRE */
+  --fire-color: hsl(var(--fire-color-h),
+      var(--fire-color-s),
+      var(--fire-color-l));
+  --fire-dark-color: hsl(var(--fire-color-h),
+      var(--fire-color-s),
+      calc(var(--fire-color-l) + var(--darknessTransform)));
+
+  /* FLYING */
+  --flying-color: hsl(var(--flying-color-h),
+      var(--flying-color-s),
+      var(--flying-color-l));
+  --flying-dark-color: hsl(var(--flying-color-h),
+      var(--flying-color-s),
+      calc(var(--flying-color-l) + var(--darknessTransform)));
+
+  /* GHOST */
+  --ghost-color: hsl(var(--ghost-color-h),
+      var(--ghost-color-s),
+      var(--ghost-color-l));
+  --ghost-dark-color: hsl(var(--ghost-color-h),
+      var(--ghost-color-s),
+      calc(var(--ghost-color-l) + var(--darknessTransform)));
+
+  /* GRASS */
+  --grass-color: hsl(var(--grass-color-h),
+      var(--grass-color-s),
+      var(--grass-color-l));
+  --grass-dark-color: hsl(var(--grass-color-h),
+      var(--grass-color-s),
+      calc(var(--grass-color-l) + var(--darknessTransform)));
+
+  /* GROUND */
+  --ground-color: hsl(var(--ground-color-h),
+      var(--ground-color-s),
+      var(--ground-color-l));
+  --ground-dark-color: hsl(var(--ground-color-h),
+      var(--ground-color-s),
+      calc(var(--ground-color-l) + var(--darknessTransform)));
+
+  /* ICE */
+  --ice-color: hsl(var(--ice-color-h),
+      var(--ice-color-s),
+      var(--ice-color-l));
+  --ice-dark-color: hsl(var(--ice-color-h),
+      var(--ice-color-s),
+      calc(var(--ice-color-l) + var(--darknessTransform)));
+
+  /* NORMAL */
+  --normal-color: hsl(var(--normal-color-h),
+      var(--normal-color-s),
+      var(--normal-color-l));
+  --normal-dark-color: hsl(var(--normal-color-h),
+      var(--normal-color-s),
+      calc(var(--normal-color-l) + var(--darknessTransform)));
+
+  /* POISON */
+  --poison-color: hsl(var(--poison-color-h),
+      var(--poison-color-s),
+      var(--poison-color-l));
+  --poison-dark-color: hsl(var(--poison-color-h),
+      var(--poison-color-s),
+      calc(var(--poison-color-l) + var(--darknessTransform)));
+
+  /* PSYCHIC */
+  --psychic-color: hsl(var(--psychic-color-h),
+      var(--psychic-color-s),
+      var(--psychic-color-l));
+  --psychic-dark-color: hsl(var(--psychic-color-h),
+      var(--psychic-color-s),
+      calc(var(--psychic-color-l) + var(--darknessTransform)));
+
+  /* ROCK */
+  --rock-color: hsl(var(--rock-color-h),
+      var(--rock-color-s),
+      var(--rock-color-l));
+  --rock-dark-color: hsl(var(--rock-color-h),
+      var(--rock-color-s),
+      calc(var(--rock-color-l) + var(--darknessTransform)));
+
+  /* STEEL */
+  --steel-color: hsl(var(--steel-color-h),
+      var(--steel-color-s),
+      calc(var(--bug-color-l) + var(--darknessTransform)));
+  --steel-dark-color: hsl(var(--steel-color-h),
+      var(--steel-color-s),
+      calc(var(--steel-color-l) + var(--darknessTransform)));
+
+  /* WATER */
+  --water-color: hsl(var(--water-color-h),
+      var(--water-color-s),
+      var(--water-color-l));
+  --water-dark-color: hsl(var(--water-color-h),
+      var(--water-color-s),
+      calc(var(--water-color-l) + var(--darknessTransform)));
+}
