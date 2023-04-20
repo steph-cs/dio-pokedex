@@ -13,12 +13,17 @@ Projeto visando a prática com a linguagem JavaScript; consumo de serviços.
 
 ## 🔨 Funcionalidades do projeto
 
-- `Funcionalidade 1` `Listar pokemons`: O sitema deve listar todos os pokemons disponíveis na API. A listagem deve permitir a ordenação, busca, paginação e configuração da quantidade de registros exibidos.
+Status: 🚧 Em andamento 🚧
+
+- `Funcionalidade 1` `Listar pokemons`: 
+  - [x] O sitema deve listar todos os pokemons disponíveis na API;
+  - [ ] Listagem deve permitir a ordenação, busca, paginação e configuração da quantidade de registros exibidos.
 <p align="center" >
 
 </p>
 
-- `Funcionalidade 2` `Listar tipos de pokemon`: O sistema deve permitir que o usuário vizualize os tipos de pokemon, sua descrição.
+- `Funcionalidade 2` `Listar tipos de pokemon`: 
+  - [ ] O sistema deve permitir o usuário vizualizar os tipos de pokemon, sua descrição.
 <p align="center" >
 
 </p>
